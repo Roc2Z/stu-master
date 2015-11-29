@@ -1,0 +1,15 @@
+[ 2015-10-19T00:12:01+08:00 ] ::1 /stu-manage/index.php/Home/Article/checkinfo.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '$stuid' inconnu dans where clause
+
+[ 2015-10-19T00:12:01+08:00 ] ::1 /stu-manage/index.php/Home/Article/checkinfo.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '$stuid' inconnu dans where clause
+
+[ 2015-10-19T00:12:02+08:00 ] ::1 /stu-manage/index.php/Home/Article/checkinfo.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '$stuid' inconnu dans where clause
+
+[ 2015-10-19T18:40:32+08:00 ] ::1 /stu-manage/index.php/Home/Article/informed/p/1.html
+ERR: 表达式错误:2
+
+[ 2015-10-19T18:40:44+08:00 ] ::1 /stu-manage/index.php/Home/Article/informed/p/1.html
+ERR: 表达式错误:3
+

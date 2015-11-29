@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+.head-right{
+			float:right;
+			font-size:20px;
+		}
+		.content-left{
+			margin-top:80px;
+			width:20%;
+			float:left;
+		}
+		.content-right{
+			float:left;
+			margin-left:5%;
+			 width: 75%;
+		}
+		.tab-content{
+			margin-top:20px;
+			width:100%;
+		}
+		#new-info{
+			float:right;
+		}
+		.panel-body{
+			width:100%;
+		}

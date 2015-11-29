@@ -1,0 +1,24 @@
+[ 2015-10-18T20:35:10+08:00 ] ::1 /stu-manage/index.php/Home/Article/setapply.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'stu_id' ne peut être vide (null)
+
+[ 2015-10-18T20:35:14+08:00 ] ::1 /stu-manage/index.php/Home/Article/setapply.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'stu_id' ne peut être vide (null)
+
+[ 2015-10-18T20:42:28+08:00 ] ::1 /stu-manage/index.php/Home/Article/setapply.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'stu_id' ne peut être vide (null)
+
+[ 2015-10-18T20:42:46+08:00 ] ::1 /stu-manage/index.php/Home/article/setapply.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'stu_id' ne peut être vide (null)
+
+[ 2015-10-18T20:43:08+08:00 ] ::1 /stu-manage/index.php/Home/article
+ERR: 非法操作:index
+
+[ 2015-10-18T20:43:40+08:00 ] ::1 /stu-manage/index.php/Home/article/setapply.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'stu_id' ne peut être vide (null)
+
+[ 2015-10-18T20:46:49+08:00 ] ::1 /stu-manage/index.php/Home/article/setapply.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'info_type' ne peut être vide (null)
+
+[ 2015-10-18T20:47:45+08:00 ] ::1 /stu-manage/index.php/Home/article/setapply.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'info_type' ne peut être vide (null)
+

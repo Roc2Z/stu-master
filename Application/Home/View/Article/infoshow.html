@@ -1,0 +1,72 @@
+<extend name="Public/base"/>
+<block name="left">
+	<include file="left_stu"/>
+</block>
+<block name="content">
+    <div class="main-content">
+        <div id="top-alert" class="fixed alert alert-error" style="display:none;">
+            <button class="fixed close">X</button>
+            <div class="alert-content">这是内容</div>
+        </div>
+        <div class="main">
+            <div class="main-title">综合素质查看</div>
+            <div class="cf">
+                
+                <!--去掉查找框
+                <a href="{:U('article/delete',array('id'=>$id))}" class="btn">删除</a>
+                <div class="search" >
+                    <input class="search-input" />
+                    <a href="" class="search-a btn">查找</a>
+                </div>
+                -->
+               
+            </div>
+            <div class="data-table">
+                        <table class="">
+                            <thead>
+                                <tr>
+                                <th class="row-selected row-selected"><input class="check-all" type="checkbox"/></th>
+                                <th class="">素质拓展证书</th>
+                                <th class="">社会实践活动</th>
+                                <th class="">学团活动</th>
+                                <th class="">科技创新</th>
+                                <th class="">惩罚</th>
+                                <th class="">奖励</th>
+                                <th class="">成绩</th>
+                              	<th class="">综合素质得分</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <foreach name="moban_info" item="one">
+                                <tr>
+                                    <td><input class="ids" type="checkbox" name="ids[]" value="12" /></td>
+                                    <td><a href="{:U('article/detial1',array('mix_id'=>$one['mix_id']))}">{$one.name1}</a></td>
+                                    <td><a href="{:U('article/detial1',array('mix_id'=>$one['mix_id']))}">{$one.name5}</a></td>
+                                    <td><a href="{:U('article/detial1',array('mix_id'=>$one['mix_id']))}">{$one.name2}</a></td>
+                                    <td><a href="{:U('article/detial1',array('mix_id'=>$one['mix_id']))}">{$one.name6}</a></td>
+                                    <td><a href="{:U('article/detial1',array('mix_id'=>$one['mix_id']))}">{$one.name3}</a></td>
+                                    <td><a href="{:U('article/detial1',array('mix_id'=>$one['mix_id']))}">{$one.name4}</a></td>
+                                    <td><a href="{:U('article/detial1',array('mix_id'=>$one['mix_id']))}">{$one.name7}</a></td>
+                                    <td><a href="{:U('article/detial1',array('mix_id'=>$one['mix_id']))}">{$one.name6}</a></td>      
+                                </tr>
+                                </foreach>
+                            </tbody>
+                        </table> 
+
+            </div>
+            <div class="page">
+                {$show}
+            </div>
+        </div>
+        <div class="ldsn-cp">&copy;2015 LDSN, <a href="http://www.ldustu.com" style="display:inline;">鲁大学生网</a> 版权所有</div>
+    </div>
+</block>
+<block name="js">
+	<script type="text/javascript">
+	$('document').ready(function(){
+		//导航高亮
+       	highlight_subNav('{:U('Article/search')}');
+		
+	});
+	</script>
+</block>

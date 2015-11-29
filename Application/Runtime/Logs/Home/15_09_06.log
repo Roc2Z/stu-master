@@ -1,0 +1,743 @@
+[ 2015-09-06T00:12:03+08:00 ] ::1 /stu-master/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0030s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 0  [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index1 - assumed 'index1' D:\Program Files\Wamp\wamp\www\stu-master\Application\Home\Controller\IndexController.class.php 第 55 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T00:30:07+08:00 ] ::1 /stu-master/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index1 - assumed 'index1' D:\Program Files\Wamp\wamp\www\stu-master\Application\Home\Controller\IndexController.class.php 第 55 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name D:\Program Files\Wamp\wamp\www\stu-master\Application\Runtime\Cache\Home\9e3089e89de5024782352407086fba57.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T00:30:29+08:00 ] ::1 /stu-master/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T00:30:50+08:00 ] ::1 /stu-master/index.php/Home/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T00:31:15+08:00 ] ::1 /stu-master/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:login
+
+[ 2015-09-06T00:32:09+08:00 ] ::1 /stu-master/index.php/Home/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T00:32:26+08:00 ] ::1 /stu-master/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stu` WHERE `password` = '20132213686' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-06T00:32:26+08:00 ] ::1 /stu-master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T00:33:01+08:00 ] ::1 /stu-master/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stu` WHERE `password` = '20132213686' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-06T00:33:01+08:00 ] ::1 /stu-master/index.php/Home/Index/index1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\Program Files\Wamp\wamp\www\stu-master\Application\Runtime\Cache\Home\9e3089e89de5024782352407086fba57.php 第 32 行.
+NOTIC: [8] Undefined variable: username D:\Program Files\Wamp\wamp\www\stu-master\Application\Runtime\Cache\Home\9e3089e89de5024782352407086fba57.php 第 53 行.
+NOTIC: [8] Undefined variable: count D:\Program Files\Wamp\wamp\www\stu-master\Application\Runtime\Cache\Home\9e3089e89de5024782352407086fba57.php 第 54 行.
+NOTIC: [8] Undefined variable: moban_info D:\Program Files\Wamp\wamp\www\stu-master\Application\Runtime\Cache\Home\9e3089e89de5024782352407086fba57.php 第 75 行.
+NOTIC: [8] Undefined variable: show D:\Program Files\Wamp\wamp\www\stu-master\Application\Runtime\Cache\Home\9e3089e89de5024782352407086fba57.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T00:33:16+08:00 ] ::1 /stu-master/index.php/Home/Article/informed.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\Program Files\Wamp\wamp\www\stu-master\Application\Runtime\Cache\Home\adeb9592ee9dbb87fba8dc53a9d42b66.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T00:33:18+08:00 ] ::1 /stu-master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T00:34:10+08:00 ] ::1 /stu-master/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T00:38:01+08:00 ] ::1 /stu-master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-06T00:56:12+08:00 ] ::1 /stu-manage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T00:56:18+08:00 ] ::1 /stu-manage/index.php/Home/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T01:23:30+08:00 ] ::1 /stu-manage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T01:23:32+08:00 ] ::1 /stu-manage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T09:45:38+08:00 ] ::1 /stu-manage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-09-06T09:45:43+08:00 ] ::1 /stu-manage/index.php/Home/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.170010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2015-09-06T13:02:25+08:00 ] ::1 /stu-manage/index.php/Home/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T13:04:28+08:00 ] ::1 /stu-manage/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stu` WHERE `password` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-06T13:04:29+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = null LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T13:04:44+08:00 ] ::1 /stu-manage/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stu` WHERE `password` = '123123' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-09-06T13:04:44+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = null LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T13:05:10+08:00 ] ::1 /stu-manage/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `stu` WHERE `password` = '21212121' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-09-06T13:05:11+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = null LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T13:06:08+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T13:06:38+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T13:06:40+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T13:07:27+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T13:07:46+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T13:08:28+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T16:28:38+08:00 ] ::1 /stu-manage/index.php/Home/Login/login.html
+ERR: 非法操作:login
+
+[ 2015-09-06T20:38:38+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T20:39:37+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T20:41:35+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T20:42:17+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T20:43:27+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T20:43:29+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-06T20:44:20+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+

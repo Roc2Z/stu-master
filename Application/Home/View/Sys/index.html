@@ -1,0 +1,12 @@
+<extend name="Public/base"/>
+<block name="left">
+	<include file="left"/>
+</block>
+<block name="js">
+	<script type="text/javascript">
+	$('document').ready(function(){
+		//导航高亮
+       	highlight_manNav('{:U('Sys/index')}');
+	});
+	</script>
+</block>

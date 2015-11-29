@@ -1,0 +1,652 @@
+[ 2015-09-06T00:22:06+08:00 ] ::1 /stu-master/index.php/Tec/Login/__app__/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__app__
+
+[ 2015-09-06T00:23:04+08:00 ] ::1 /stu-master/index.php/Tec/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T00:23:11+08:00 ] ::1 /stu-master/index.php/Tec/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-06T00:24:07+08:00 ] ::1 /stu-master/index.php/Tec/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-09-06T00:24:38+08:00 ] ::1 /stu-master/index.php/Tec/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T00:26:09+08:00 ] ::1 /stu-master/index.php/Tec/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tec` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tec` WHERE `username` = '你我他' AND `password` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-06T00:26:09+08:00 ] ::1 /stu-master/index.php/Tec/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 模板不存在:./Application/Tec/View/User/index.html
+
+[ 2015-09-06T00:27:46+08:00 ] ::1 /stu-master/index.php/Tec/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 模板不存在:./Application/Tec/View/User/index.html
+
+[ 2015-09-06T00:28:33+08:00 ] ::1 /stu-master/index.php/Tec/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 模板不存在:./Application/Tec/View/User/index.html
+
+[ 2015-09-06T00:28:40+08:00 ] ::1 /stu-master/index.php/Tec/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tec` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tec` WHERE `username` = '你我他' AND `password` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-06T00:28:40+08:00 ] ::1 /stu-master/index.php/Tec/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 AND `status` IN ('1') LIMIT 1   [ RunTime:0.2770s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 AND `status` IN ('1') LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0040s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\Program Files\Wamp\wamp\www\stu-master\Application\Runtime\Cache\Tec\5f624b5d971a777208b44644c53daf2c.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T00:30:31+08:00 ] ::1 /stu-master/index.php/Tec/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T00:30:40+08:00 ] ::1 /stu-master/index.php/Tec/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tec` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tec` WHERE `username` = '你我他' AND `password` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-06T00:30:41+08:00 ] ::1 /stu-master/index.php/Tec/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 AND `status` IN ('1') LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 AND `status` IN ('1') LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name D:\Program Files\Wamp\wamp\www\stu-master\Application\Runtime\Cache\Tec\5f624b5d971a777208b44644c53daf2c.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T00:56:14+08:00 ] ::1 /stu-manage/index.php/Tec/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T01:23:33+08:00 ] ::1 /stu-manage/index.php/Tec/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T01:23:37+08:00 ] ::1 /stu-manage/index.php/Tec/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T01:23:53+08:00 ] ::1 /stu-manage/index.php/Tec/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tec` [ RunTime:0.0600s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tec` WHERE `username` = '王小明' AND `password` = '123123' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-06T01:24:02+08:00 ] ::1 /stu-manage/index.php/Tec/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tec` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tec` WHERE `username` = '王小明' AND `password` = '123123' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T01:48:08+08:00 ] ::1 /stu-manage/index.php/Tec/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tec` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tec` WHERE `username` = '你我他' AND `password` = '123123' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-09-06T01:48:09+08:00 ] ::1 /stu-manage/index.php/Tec/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 AND `status` IN ('1') LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 AND `status` IN ('1') LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\Program Files\Wamp\wamp\www\stu-manage\Application\Runtime\Cache\Tec\5f624b5d971a777208b44644c53daf2c.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2015-09-06T02:13:32+08:00 ] ::1 /stu-manage/index.php/Tec/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tec` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tec` WHERE `username` = '你我他' AND `password` = '123123' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-09-06T02:13:32+08:00 ] ::1 /stu-manage/index.php/Tec/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 AND `status` IN ('1') LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 AND `status` IN ('1') LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\Program Files\Wamp\wamp\www\stu-manage\Application\Runtime\Cache\Tec\5f624b5d971a777208b44644c53daf2c.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T02:13:41+08:00 ] ::1 /stu-manage/index.php/Tec/Article/wait.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mix` WHERE `status` = 1 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\Program Files\Wamp\wamp\www\stu-manage\Application\Tec\Controller\ArticleController.class.php on line 32 and defined D:\Program Files\Wamp\wamp\www\stu-manage\ThinkPHP\Library\Think\Model.class.php 第 1777 行.
+NOTIC: [8] Undefined variable: where D:\Program Files\Wamp\wamp\www\stu-manage\ThinkPHP\Library\Think\Model.class.php 第 1785 行.
+NOTIC: [8] Undefined variable: where D:\Program Files\Wamp\wamp\www\stu-manage\ThinkPHP\Library\Think\Model.class.php 第 1788 行.
+NOTIC: [8] Undefined variable: where D:\Program Files\Wamp\wamp\www\stu-manage\ThinkPHP\Library\Think\Model.class.php 第 1796 行.
+SQL: SELECT * FROM `stu` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\Program Files\Wamp\wamp\www\stu-manage\Application\Runtime\Cache\Tec\1f5a09f01b41faf18cd35b68b84e5f3e.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T02:13:43+08:00 ] ::1 /stu-manage/index.php/Tec/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 AND `status` IN ('1') LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 AND `status` IN ('1') LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name D:\Program Files\Wamp\wamp\www\stu-manage\Application\Runtime\Cache\Tec\5f624b5d971a777208b44644c53daf2c.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T02:13:44+08:00 ] ::1 /stu-manage/index.php/Tec/Article/wait.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mix` WHERE `status` = 1 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\Program Files\Wamp\wamp\www\stu-manage\Application\Tec\Controller\ArticleController.class.php on line 32 and defined D:\Program Files\Wamp\wamp\www\stu-manage\ThinkPHP\Library\Think\Model.class.php 第 1777 行.
+NOTIC: [8] Undefined variable: where D:\Program Files\Wamp\wamp\www\stu-manage\ThinkPHP\Library\Think\Model.class.php 第 1785 行.
+NOTIC: [8] Undefined variable: where D:\Program Files\Wamp\wamp\www\stu-manage\ThinkPHP\Library\Think\Model.class.php 第 1788 行.
+NOTIC: [8] Undefined variable: where D:\Program Files\Wamp\wamp\www\stu-manage\ThinkPHP\Library\Think\Model.class.php 第 1796 行.
+SQL: SELECT * FROM `stu` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\Program Files\Wamp\wamp\www\stu-manage\Application\Runtime\Cache\Tec\1f5a09f01b41faf18cd35b68b84e5f3e.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-09-06T02:13:45+08:00 ] ::1 /stu-manage/index.php/Tec/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mix` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mix` WHERE `stu_id` = 1 AND `status` IN ('1') LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mix` WHERE `stu_id` = 1 AND `status` IN ('1') LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `stu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `stu` WHERE ( stu_id=1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0020s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `status_name` FROM `status` WHERE `status` = 3  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\Program Files\Wamp\wamp\www\stu-manage\Application\Runtime\Cache\Tec\5f624b5d971a777208b44644c53daf2c.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T09:45:40+08:00 ] ::1 /stu-manage/index.php/Tec/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

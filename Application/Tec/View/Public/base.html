@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>管理系统</title>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/common.css"/>
+        <script src="__PUBLIC__/js/jquery.js"></script>
+        <script src="__PUBLIC__/js/common.js"></script>
+
+        <block name="style"></block>
+    </head>
+    <body>
+        <!-- 头部 -->
+        <div class="header">
+            <!-- logo -->
+            <span class="logo"></span>
+            <!-- 顶部导航 -->
+            <ul class="main-nav">
+                <li><a href="{:U('Index/index1')}">首页</a></li>
+                <li><a href="{:U('Article/wait')}">内容</a></li>
+                <li><a href="{:U('User/upinfo')}">用户</a></li>
+                
+            </ul>
+            <!-- 用户栏 -->
+            <div class="user-bar">
+                <a href="javascript:;" class="user-entrance">用户</a>
+                <ul class="user-menu hidden">
+                    <li>你好!<em title="">{$name}</em></li>
+                    <li><a href="{:U('User/repswd')}">修改密码</a></li>
+                    <li><a href="{:U('User/upinfo')}">更新资料</a></li>
+                    <li><a href="{:U('Login/logout')}">退出</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /头部 -->
+        <!-- 侧边栏 -->
+        <block name="left">
+        </block>
+        <!-- 内容部分-->   
+        <block name="content">
+        </block>
+        <block name="js">
+
+        </block>   
+    </body>
+</html>

@@ -1,0 +1,131 @@
+<extend name="Public/base"/>
+<block name="left">
+	<include file="left_tec"/>
+</block>
+<block name="content">
+    <div class="main-content">
+        <div id="top-alert" class="fixed alert alert-error" style="display:none;">
+            <button class="fixed close">X</button>
+            <div class="alert-content">这是内容</div>
+        </div>
+        <div class="main">
+            <div class="main-title">修改个人资料</div>
+            <div class="main-upinfo">
+			<div class="upinfo-form_tec">
+				
+                   <div class="upinfostu_tec">
+						<label for="info-title" class="label">邮件</label>
+						<label for="info-title" class="label">{$email}</label>
+						
+						<label for="info-title" class="label">邮编</label>
+						
+						<label for="info-title" class="label">{$zipcode}</label>
+						<label for="info-title" class="label">手机号码</label>
+						
+						<label for="info-title" class="label">{$phone}</label>
+						<label for="info-title" class="label">家庭电话</label>
+					
+						<label for="info-title" class="label">{$home_phone}</label>
+						<label for="info-title" class="label">家庭住址</label>
+					
+						<label for="info-title" class="label">{$address}</label>
+						<label for="info-title" class="label">健康状况</label>
+					
+						<label for="info-title" class="label">{$health}</label>
+				   
+				   </div>
+				   <div class="upinfostu_tec">
+						<label for="info-title" class="label">姓名：</label>
+                      
+						<label for="info-title" class="label">{$name}</label>
+						<label for="info-title" class="label">学号：</label>
+                       
+						<label for="info-title" class="label">{$student_id}</label>
+						<label for="info-title" class="label">专业：</label>
+                      
+						<label for="info-title" class="label">{$major}</label>
+						<label for="info-title" class="label">入学年份：</label>
+                       
+						<label for="info-title" class="label">{$grade}</label>
+						<label for="info-title" class="label">性别：</label>
+                       
+						<label for="info-title" class="label">{$gender}</label>
+						<label for="info-title" class="label">民族：</label>
+                      
+						<label for="info-title" class="label">{$nation}</label>
+				   </div>
+				   <div class="upinfostu_tec">
+						<label for="info-title" class="label">政治面貌：</label>
+                        
+						<label for="info-title" class="label">{$political_status}</label>
+						<label for="info-title" class="label">身份证：</label>
+                       
+						<label for="info-title" class="label">{$id_card}</label>
+						<label for="info-title" class="label">出生日期：</label>
+                        
+						<label for="info-title" class="label">{$birth}</label>
+						<label for="info-title" class="label">籍贯：</label>
+                        
+						<label for="info-title" class="label">{$country}</label>
+				   </div>
+                    
+                </div> 
+                <form class="upinfo-form_tec" action="{:U('article/setupinfo')}" method="post">
+				
+                   <div class="upinfostu_tec">
+						<label for="info-title" class="label">邮件</label>
+						<input type="text" name="email" />
+						<label for="info-title" class="label">邮编</label>
+						<input type="text" name="zipcode"  />
+						<label for="info-title" class="label">手机号码</label>
+						<input type="text" name="phone"  />
+						<label for="info-title" class="label">家庭电话</label>
+						<input type="text" name="home_phone"  />
+						<label for="info-title" class="label">家庭住址</label>
+						<input type="text" name="address" />
+						<label for="info-title" class="label">健康状况</label>
+						<input type="text" name="health"  />
+						<input type="submit" name="submit" value="更新资料" class="btn" />
+				   
+				   </div>
+				   <div class="upinfostu_tec">
+						<label for="info-title" class="label">姓名：</label>
+                        <input type="text" name="name" />
+						<label for="info-title" class="label">学号：</label>
+                        <input type="text" name="student_id" />
+						<label for="info-title" class="label">专业：</label>
+                        <input type="text" name="major" />
+						<label for="info-title" class="label">入学年份：</label>
+                        <input type="text" name="grade" />
+						<label for="info-title" class="label">性别：</label>
+                        <input type="text" name="gender" />
+						<label for="info-title" class="label">民族：</label>
+                        <input type="text" name="nation" />
+				   </div>
+				   <div class="upinfostu_tec">
+						<label for="info-title" class="label">政治面貌：</label>
+                        <input type="text" name="political" />
+						<label for="info-title" class="label">身份证：</label>
+                        <input type="text" name="id_card" />
+						<label for="info-title" class="label">出生日期：</label>
+                        <input type="text" name="birth" />
+						<label for="info-title" class="label">籍贯：</label>
+                        <input type="text" name="country" />
+				   </div>
+                    
+                </form> 
+                
+                
+            </div>
+        </div>
+        <div class="ldsn-cp">&copy;2015 LDSN, <a href="http://www.ldustu.com" style="display:inline;">鲁大学生网</a> 版权所有</div>
+    </div>
+</block>
+<block name="js">
+	<script type="text/javascript">
+	$('document').ready(function(){
+		//导航高亮
+       	highlight_subNav('{:U('Article/search')}');
+	});
+	</script>
+</block>

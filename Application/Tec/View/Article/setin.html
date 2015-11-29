@@ -1,0 +1,36 @@
+<extend name="Public/base"/>
+<block name="left">
+    <include file="left_tec"/>
+</block>
+<block name="content">
+    <div class="main-content">
+        <div id="top-alert" class="fixed alert alert-error" style="display:none;">
+            <button class="fixed close">X</button>
+            <div class="alert-content">这是内容</div>
+        </div>
+        <div class="main">
+            <div class="main-title">导入学生信息</div>
+            <form class="form" action="{:U('article/upload')}" method="post" enctype="multipart/form-data" >
+                <div class="form-item">
+                    <div class="item-title">
+                        <h3>文件上传</h3>
+                    </div>
+                    <div class="item-content">
+                        <input type="file" name="file" class="file-input"/>
+                        <input type="submit" name="submit" value="上传" class="sub-input"/>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="ldsn-cp">&copy;2015 LDSN, <a href="http://www.ldustu.com" style="display:inline;">鲁大学生网</a> 版权所有</div>
+    </div>
+</block>
+<block name="js">
+    <script type="text/javascript">
+    $('document').ready(function(){
+        //导航高亮
+        highlight_subNav('{:U('Article/setin')}');
+    });
+    </script>
+</block>

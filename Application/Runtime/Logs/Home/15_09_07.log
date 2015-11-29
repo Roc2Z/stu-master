@@ -1,0 +1,123 @@
+[ 2015-09-07T09:02:51+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-07T09:02:54+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-07T09:02:57+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-07T09:02:58+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-07T09:03:43+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-07T09:03:44+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-07T14:59:03+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '王小明' inconnu dans where clause
+
+[ 2015-09-07T15:00:08+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'username' inconnu dans where clause
+
+[ 2015-09-07T15:00:19+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'username' inconnu dans where clause
+
+[ 2015-09-07T15:00:46+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '$username' inconnu dans where clause
+
+[ 2015-09-07T15:01:04+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '王小明' inconnu dans where clause
+
+[ 2015-09-07T15:02:28+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '$username' inconnu dans where clause
+
+[ 2015-09-07T15:02:49+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '王小明' inconnu dans where clause
+
+[ 2015-09-07T15:03:07+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-07T15:04:52+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-07T15:04:53+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-07T15:05:12+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-07T15:05:40+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-07T15:05:54+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '王小明' inconnu dans where clause
+
+[ 2015-09-07T15:06:18+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-09-07T15:07:07+08:00 ] ::1 /stu-manage/index.php/Home/Index/index1.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'Array' inconnu dans where clause
+
+[ 2015-09-07T15:30:14+08:00 ] ::1 /stu-manage/index.php/Home/User/U('User/up_passwd')
+ERR: 非法操作:U('User
+
+[ 2015-09-07T15:31:17+08:00 ] ::1 /stu-manage/index.php/Home/User/U('User/up_passwd')
+ERR: 非法操作:U('User
+
+[ 2015-09-07T15:31:42+08:00 ] ::1 /stu-manage/index.php/Home/User/U('User/up_passwd')
+ERR: 非法操作:U('User
+
+[ 2015-09-07T15:31:46+08:00 ] ::1 /stu-manage/index.php/Home/User/U('User/up_passwd')
+ERR: 非法操作:U('User
+
+[ 2015-09-07T15:32:01+08:00 ] ::1 /stu-manage/index.php/Home/User/U('User/up_passwd')
+ERR: 非法操作:U('User
+
+[ 2015-09-07T17:33:36+08:00 ] ::1 /stu-manage/index.php/Home/User/U('User/up_passwd')
+ERR: 非法操作:U('User
+
+[ 2015-09-07T17:34:35+08:00 ] ::1 /stu-manage/index.php/Home/User/U('User/up_passwd')
+ERR: 非法操作:U('User
+
+[ 2015-09-07T17:36:02+08:00 ] ::1 /stu-manage/index.php/Home/User/U('User/up_passwd')
+ERR: 非法操作:U('User
+
+[ 2015-09-07T17:38:47+08:00 ] ::1 /stu-manage/index.php/Home/User/U('User/up_passwd')
+ERR: 非法操作:U('User
+
+[ 2015-09-07T17:38:52+08:00 ] ::1 /stu-manage/index.php/Home/User/U('User/up_passwd')
+ERR: 非法操作:U('User
+
+[ 2015-09-07T18:10:36+08:00 ] ::1 /stu-manage/index.php/Home/User/setupinfo.html
+ERR: Think\Model:update_info方法不存在！
+
+[ 2015-09-07T18:11:11+08:00 ] ::1 /stu-manage/index.php/Home/User/setupinfo.html
+ERR: Think\Model:update_info方法不存在！
+
+[ 2015-09-07T18:12:20+08:00 ] ::1 /stu-manage/index.php/Home/User/setupinfo.html
+ERR: Think\Model:update_info方法不存在！
+
+[ 2015-09-07T18:14:00+08:00 ] ::1 /stu-manage/index.php/Home/User/setupinfo.html
+ERR: Think\Model:update_info方法不存在！
+
+[ 2015-09-07T18:23:09+08:00 ] ::1 /stu-manage/index.php/Home/User/setupinfo.html
+ERR: Think\Model:update_info方法不存在！
+
+[ 2015-09-07T18:25:14+08:00 ] ::1 /stu-manage/index.php/Home/User/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+
+[ 2015-09-07T18:26:29+08:00 ] ::1 /stu-manage/index.php/Home/User/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+
+[ 2015-09-07T18:26:38+08:00 ] ::1 /stu-manage/index.php/Home/User/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+
+[ 2015-09-07T18:28:16+08:00 ] ::1 /stu-manage/index.php/Home/User/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+
+[ 2015-09-07T18:28:31+08:00 ] ::1 /stu-manage/index.php/Home/User/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+

@@ -1,0 +1,9 @@
+[ 2015-10-19T22:01:09+08:00 ] ::1 /stu-manage/index.php/Tec/Article/
+ERR: 非法操作:index
+
+[ 2015-10-19T22:13:22+08:00 ] ::1 /stu-manage/index.php/Tec/Article/
+ERR: 非法操作:index
+
+[ 2015-10-19T23:02:53+08:00 ] ::1 /stu-manage/index.php/Tec/article/detial/mix_id/8.html
+ERR: Think\Model:get_info_type方法不存在！
+

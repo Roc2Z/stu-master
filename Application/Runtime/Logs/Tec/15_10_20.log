@@ -1,0 +1,165 @@
+[ 2015-10-20T01:12:24+08:00 ] ::1 /stu-manage/index.php/Tec/article/upload.html
+ERR: Think\Model:setinfo方法不存在！
+
+[ 2015-10-20T01:18:35+08:00 ] ::1 /stu-manage/index.php/Tec/Article/
+ERR: 非法操作:index
+
+[ 2015-10-20T01:18:40+08:00 ] ::1 /stu-manage/index.php/Tec/Article/
+ERR: 非法操作:index
+
+[ 2015-10-20T01:27:43+08:00 ] ::1 /stu-manage/index.php/Tec/Article/
+ERR: 非法操作:index
+
+[ 2015-10-20T01:28:32+08:00 ] ::1 /stu-manage/index.php/Tec/Article/
+ERR: 非法操作:index
+
+[ 2015-10-20T01:44:41+08:00 ] ::1 /stu-manage/index.php/Tec/Article/search.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'student_id' inconnu dans where clause
+
+[ 2015-10-20T01:52:05+08:00 ] ::1 /stu-manage/index.php/Tec/Index/index.html
+ERR: 模板不存在:./Application/Tec/View/Index/index.html
+
+[ 2015-10-20T01:53:06+08:00 ] ::1 /stu-manage/index.php/Tec/Index/index.html
+ERR: 模板不存在:./Application/Tec/View/Index/index.html
+
+[ 2015-10-20T01:53:54+08:00 ] ::1 /stu-manage/index.php/Tec/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-10-20T02:02:25+08:00 ] ::1 /stu-manage/index.php/Tec/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-10-20T02:15:07+08:00 ] ::1 /stu-manage/index.php/Tec/Index/index1.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') LIMIT 0,10' à la ligne 1
+
+[ 2015-10-20T02:22:37+08:00 ] ::1 /stu-manage/index.php/Tec/Index/index.html
+ERR: 模板不存在:./Application/Tec/View/Index/index.html
+
+[ 2015-10-20T02:34:36+08:00 ] ::1 /stu-manage/index.php/Tec/Article/search.html
+ERR: Think\Model:getstuid方法不存在！
+
+[ 2015-10-20T03:06:09+08:00 ] ::1 /stu-manage/index.php/Tec/article/wait.html/id/
+ERR: 非法操作:wait.html
+
+[ 2015-10-20T04:11:35+08:00 ] ::1 /stu-manage/index.php/Tec/Article/search_info.html
+ERR: 非法操作:search_info
+
+[ 2015-10-20T05:57:09+08:00 ] ::1 /stu-manage/index.php/Tec/Article/search_info.html
+ERR: 非法操作:search_info
+
+[ 2015-10-20T06:46:09+08:00 ] ::1 /stu-manage/index.php/Tec/article/stu_info/stu_id/1.html
+ERR: Think\Model:getstuid方法不存在！
+
+[ 2015-10-20T06:46:59+08:00 ] ::1 /stu-manage/index.php/Tec/article/stu_info/stu_id/1.html
+ERR: Think\Model:getstuid方法不存在！
+
+[ 2015-10-20T06:47:31+08:00 ] ::1 /stu-manage/index.php/Tec/article/stu_info/stu_id/1.html
+ERR: Think\Model:getstuid方法不存在！
+
+[ 2015-10-20T06:48:35+08:00 ] ::1 /stu-manage/index.php/Tec/user/stu_info/stu_id/1.html
+ERR: 模板不存在:./Application/Tec/View/User/stu_info.html
+
+[ 2015-10-20T06:59:51+08:00 ] ::1 /stu-manage/index.php/Tec/Artical/setupinfo.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:00:16+08:00 ] ::1 /stu-manage/index.php/Tec/Artical/setupinfo.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:03:32+08:00 ] ::1 /stu-manage/index.php/Tec/Artical/setupinfo.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:03:43+08:00 ] ::1 /stu-manage/index.php/Tec/
+ERR: 模板不存在:./Application/Tec/View/Index/index.html
+
+[ 2015-10-20T07:04:55+08:00 ] ::1 /stu-manage/index.php/Tec/Artical/setupinfo.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:06:51+08:00 ] ::1 /stu-manage/index.php/Tec/User/stu_info/stu_id/1.html
+ERR: 模板不存在:./Application/Tec/View/User/stu_info.html
+
+[ 2015-10-20T07:06:57+08:00 ] ::1 /stu-manage/index.php/Tec/User/stu_info/stu_id/10.html
+ERR: 模板不存在:./Application/Tec/View/User/stu_info.html
+
+[ 2015-10-20T07:07:03+08:00 ] ::1 /stu-manage/index.php/Tec/User/stu_info/stu_id/4.html
+ERR: 模板不存在:./Application/Tec/View/User/stu_info.html
+
+[ 2015-10-20T07:07:36+08:00 ] ::1 /stu-manage/index.php/Tec/User/stu_info/stu_id/1.html
+ERR: 模板不存在:./Application/Tec/View/User/stu_info.html
+
+[ 2015-10-20T07:07:43+08:00 ] ::1 /stu-manage/index.php/Tec/User/stu_info/stu_id/6.html
+ERR: 模板不存在:./Application/Tec/View/User/stu_info.html
+
+[ 2015-10-20T07:07:50+08:00 ] ::1 /stu-manage/index.php/Tec/User/stu_info/stu_id/10.html
+ERR: 模板不存在:./Application/Tec/View/User/stu_info.html
+
+[ 2015-10-20T07:08:02+08:00 ] ::1 /stu-manage/index.php/Tec/User/stu_info/stu_id/4.html
+ERR: 模板不存在:./Application/Tec/View/User/stu_info.html
+
+[ 2015-10-20T07:11:09+08:00 ] ::1 /stu-manage/index.php/Tec/User/stu_info/
+ERR: 模板不存在:./Application/Tec/View/User/stu_info.html
+
+[ 2015-10-20T07:11:16+08:00 ] ::1 /stu-manage/index.php/Tec/
+ERR: 模板不存在:./Application/Tec/View/Index/index.html
+
+[ 2015-10-20T07:11:42+08:00 ] ::1 /stu-manage/index.php/Tec/artical/stu_info/stu_id/1.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:12:58+08:00 ] ::1 /stu-manage/index.php/Tec/artical/stu_info/stu_id/1.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:13:06+08:00 ] ::1 /stu-manage/index.php/Tec/artical/stu_info/stu_id/1.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:13:36+08:00 ] ::1 /stu-manage/index.php/Tec/artical/stu_info/stu_id/1.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:15:57+08:00 ] ::1 /stu-manage/index.php/Tec/artical/stu_info/stu_id/1.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:16:08+08:00 ] ::1 /stu-manage/index.php/Tec/artical/stu_info/stu_id/1.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:16:17+08:00 ] ::1 /stu-manage/index.php/Tec/Artical/stu_info/stu_id/1.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:17:29+08:00 ] ::1 /stu-manage/index.php/Tec/artical/stu_info/stu_id/1.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:21:33+08:00 ] ::1 /stu-manage/index.php/Tec/artical/setupinfo.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:21:38+08:00 ] ::1 /stu-manage/index.php/Tec/artical/setupinfo.html
+ERR: 无法加载控制器:Artical
+
+[ 2015-10-20T07:24:20+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+
+[ 2015-10-20T07:25:17+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+
+[ 2015-10-20T07:25:44+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+
+[ 2015-10-20T07:28:06+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.htmlArray
+ERR: 非法操作:setupinfo.htmlArray
+
+[ 2015-10-20T07:28:31+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.htmlArray
+ERR: 非法操作:setupinfo.htmlArray
+
+[ 2015-10-20T07:30:26+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.htmlArray
+ERR: 非法操作:setupinfo.htmlArray
+
+[ 2015-10-20T07:34:37+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+
+[ 2015-10-20T07:36:47+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.html
+ERR: Think\Model:getstuid方法不存在！
+
+[ 2015-10-20T07:36:51+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.html
+ERR: Think\Model:getstuid方法不存在！
+
+[ 2015-10-20T07:37:00+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.html
+ERR: Think\Model:getstuid方法不存在！
+
+[ 2015-10-20T07:38:36+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+

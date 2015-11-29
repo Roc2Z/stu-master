@@ -1,0 +1,40 @@
+<extend name="Public/base"/>
+<block name="left">
+	<include file="left_tec"/>
+</block>
+<block name="content">
+    <div class="main-content">
+        <div id="top-alert" class="fixed alert alert-error" style="display:none;">
+            <button class="fixed close">X</button>
+            <div class="alert-content">这是内容</div>
+        </div>
+        <div class="main">
+            <div class="main-title">{$title}</div>
+            <div class="data-table">
+                <label for="data-title" class="label">申请名称</label>
+                <input type="text" class="data-title" />
+                <label for="data-title" class="label">详细内容</label>
+                <textarea id="container" class="data-content">
+
+                </textarea>
+                <label for="data-title" class="label">申请人</label>
+                <input type="text" class="data-people" />
+            </div>
+            <div class="page"></div>
+        </div>
+        <div class="ldsn-cp">&copy;2015 LDSN, <a href="http://www.ldustu.com" style="display:inline;">鲁大学生网</a> 版权所有</div>
+    </div>
+</block>
+<block name="js">
+<script type="text/javascript" src="__PUBLIC__/ue/ueditor.config.js"></script>
+<!-- 编辑器源码文件 -->
+<script type="text/javascript" src="__PUBLIC__/ue/ueditor.all.js"></script>
+	<script type="text/javascript">
+
+	$('document').ready(function(){
+		//导航高亮
+       	highlight_subNav('{:U('Article/set')}');
+        var ue = UE.getEditor('container');
+	});
+	</script>
+</block>

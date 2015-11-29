@@ -1,0 +1,63 @@
+<extend name="Public/base"/>
+<block name="left">
+	<include file="left_stu"/>
+</block>
+<block name="content">
+    <div class="main-content">
+        <div id="top-alert" class="fixed alert alert-error" style="display:none;">
+            <button class="fixed close">X</button>
+            <div class="alert-content">这是内容</div>
+        </div>
+        <div class="main">
+            <div class="main-title">已审核({$num})</div>
+            <div class="cf">
+                <a href="" class="btn">删除</a>
+                <a href="" class="btn">取消</a>
+            </div>
+            <div class="data-table">
+                        <table class="">
+                            <thead>
+                                <tr>
+                                <th class="row-selected row-selected"><input class="check-all" type="checkbox"/></th>
+                                <th class="">编号</th>
+                                <th class="">标题</th>
+                                <th class="">创建者</th>
+                                <th class="">类型</th>
+                                <th class="">分类</th>
+                                <th class="">发布时间</th>
+                                <th class="">操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input class="ids" type="checkbox" name="ids[]" value="12" /></td>
+                                    <td>12 </td>
+                                    <td><a href="{:U('article/content',array('id'=>$id))}">gsregrs</a></td>
+                                    <td><span>aaa</span></td>
+                                    <td><span>默认分类</span></td>
+                                    <td>0</td>
+                                    <td><span>2015-05-03 09:20</span></td>
+                                    <td>
+                                        <a href="{:U('article/wait')}/status/0/id/{$id}" class="ajax-get">取消</a>
+                                        <a href="{:U('article/wait')}/id/{$id}" class="confirm ajax-get">删除</a>
+                                        </td>
+                                </tr>
+                            </tbody>
+                        </table> 
+
+            </div>
+            <div class="page">
+			{$show}
+			</div>
+        </div>
+        <div class="ldsn-cp">&copy;2015 LDSN, <a href="http://www.ldustu.com" style="display:inline;">鲁大学生网</a> 版权所有</div>
+    </div>
+</block>
+<block name="js">
+	<script type="text/javascript">
+	$('document').ready(function(){
+		//导航高亮
+       	highlight_subNav('{:U('Article/set')}');
+	});
+	</script>
+</block>

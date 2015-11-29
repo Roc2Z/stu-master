@@ -1,0 +1,21 @@
+[ 2015-10-30T01:15:14+08:00 ] ::1 /stu-manage/index.php/Tec/article/upload.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'name' ne peut être vide (null)
+
+[ 2015-10-30T01:15:30+08:00 ] ::1 /stu-manage/index.php/Tec/
+ERR: 模板不存在:./Application/Tec/View/Index/index.html
+
+[ 2015-10-30T01:16:15+08:00 ] ::1 /stu-manage/index.php/Tec/article/upload.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'name' ne peut être vide (null)
+
+[ 2015-10-30T01:16:24+08:00 ] ::1 /stu-manage/index.php/Tec/article/upload.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'name' ne peut être vide (null)
+
+[ 2015-10-30T01:34:26+08:00 ] ::1 /stu-manage/index.php/Tec/article/upload.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'name' ne peut être vide (null)
+
+[ 2015-10-30T18:36:54+08:00 ] ::1 /stu-manage/index.php/Tec/article/upload.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'name' ne peut être vide (null)
+
+[ 2015-10-30T18:37:51+08:00 ] ::1 /stu-manage/index.php/Tec/article/upload.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'name' ne peut être vide (null)
+

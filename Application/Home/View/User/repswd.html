@@ -1,0 +1,35 @@
+<extend name="Public/base"/>
+<block name="left">
+	<include file="left"/>
+</block>
+<block name="content">
+    <div class="main-content">
+        <div id="top-alert" class="fixed alert alert-error" style="display:none;">
+            <button class="fixed close">X</button>
+            <div class="alert-content">这是内容</div>
+        </div>
+        <div class="main">
+            <div class="main-title">修改密码</div>
+            <div class="main-content">
+                <form action="{:U('User/up_passwd')}" method="post">
+                    <label for="info-title" class="label">旧密码</label>
+                    <input name="old_password" type="text"/>
+                    <label for="info-title" class="label">新密码</label>
+                    <input name="new_password" type="text"/>
+                    <label for="info-title" class="label">重复密码</label>
+                    <input name="re_password" type="text"/>
+                    <input type="submit" class="btn" style="margin-top:20px;" value="更新密码"/>
+                </form>
+            </div>
+        </div>
+        <div class="ldsn-cp">&copy;2015 LDSN, <a href="http://www.ldustu.com" style="display:inline;">鲁大学生网</a> 版权所有</div>
+    </div>
+</block>
+<block name="js">
+	<script type="text/javascript">
+	$('document').ready(function(){
+		//导航高亮
+       	highlight_subNav('{:U('User/repswd')}');
+	});
+	</script>
+</block>

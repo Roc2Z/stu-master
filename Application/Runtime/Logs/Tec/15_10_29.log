@@ -1,0 +1,18 @@
+[ 2015-10-29T17:56:11+08:00 ] ::1 /stu-manage/index.php/Tec/article/upload.html
+ERR: Think\Model:setinfo方法不存在！
+
+[ 2015-10-29T19:50:19+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+
+[ 2015-10-29T19:53:02+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+
+[ 2015-10-29T20:03:55+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+
+[ 2015-10-29T20:04:02+08:00 ] ::1 /stu-manage/index.php/Tec/article/setupinfo.html
+ERR: Think\Model:update_data方法不存在！
+
+[ 2015-10-29T23:48:36+08:00 ] ::1 /stu-manage/index.php/Tec/article/upload.html
+ERR: Think\Model:setinfo方法不存在！
+

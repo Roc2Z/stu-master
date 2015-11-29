@@ -1,0 +1,75 @@
+<extend name="Public/base"/>
+<block name="left">
+    <include file="left_tec"/>
+</block>
+<block name="content">
+    <div class="main-content">
+        <div id="top-alert" class="fixed alert alert-error" style="display:none;">
+            <button class="fixed close">X</button>
+            <div class="alert-content">这是内容</div>
+        </div>
+        <div class="main">
+            <div class="main-title">待审核({$count})</div>
+            <!--
+            <div class="cf">
+                <a href="" class="btn">删除</a>
+                <a href="{:U('article/check',array('mix_id'=>$one['mix_id']))}" class="btn">审核</a>
+            </div>
+            -->
+            <div class="data-table">
+                        <table class="">
+                            <thead>
+                                <tr>
+                                <th class="row-selected row-selected"><input class="check-all" type="checkbox"/></th>
+                                <th class="">编号</th>
+                                <th class="">名称</th>
+                                <th class="">姓名</th>
+                                <th class="">学号</th>
+                                <th class="">分类</th>
+                                <th class="">年级</th>
+                                <th class="">操作</th>
+                                <th class="">状态</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <foreach name="moban_info" item="one">
+                                <tr>
+                                    <td><input class="ids" type="checkbox" name="ids[]" value="12" /></td>
+                                    <td>{$one.mix_id}</td>
+                                    <td><a href="{:U('article/detial',array('mix_id'=>$one['mix_id']))}">{$one.name}</a></td>
+                                    <td><span>{$one.stu_name}</span></td>
+                                    <td><span>{$one.student_id}</span></td>
+                                    <td>{$one.info_type}</td>
+                                    <td><span>{$one.grade}</span></td>
+                                    <td>
+                                        <a href="{:U('article/check',array('mix_id'=>$one['mix_id']))}" class="ajax-get">审核</a>
+                                         <a href="{:U('article/go_back',array('mix_id'=>$one['mix_id']))}" class="confirm ajax-get">驳回</a>
+                                        <a href="{:U('article/delete_apply',array('mix_id'=>$one['mix_id']))}" class="confirm ajax-get">删除</a>
+                                        </td>
+                                    <td>
+                                        <span>{$one.status}</span>
+                                    </td>
+                                        
+                                    
+                                </tr>
+                                </foreach>
+                            </tbody>
+                        </table> 
+
+            </div>
+            <div class="page">
+                {$show}
+            </div>
+        </div>
+    <div class="ldsn-cp">&copy;2015 LDSN, <a href="http://www.ldustu.com" style="display:inline;">鲁大学生网</a> 版权所有</div>
+    </div>
+</block>
+<block name="js">
+    <script type="text/javascript">
+    $('document').ready(function(){
+        //导航高亮
+        highlight_manNav('{:U('Article/wait')}');
+        highlight_subNav('{:U('Article/wait')}');
+    });
+    </script>
+</block>
